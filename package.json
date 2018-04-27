@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postpublish": "npx publishr postpublish",
-    "postversion": "npx publishr postversion"
+    "prepublish": "npx publishr postversion",
+    "postpublish": "npx publishr postpublish"
   },
   "repository": {
     "type": "git",
