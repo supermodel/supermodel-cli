@@ -1,11 +1,11 @@
 {
   "name": "supermodel-cli",
-  "version": "0.26.0",
+  "version": "0.26.1-publishr.0",
   "description": "Supermodel command tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npx publishr postversion",
+    "prepare": "npx publishr postversion",
     "postpublish": "npx publishr postpublish"
   },
   "repository": {
@@ -41,6 +41,18 @@
   "publishr": {
     "files": {
       ".env": ".env.production"
+    },
+    "dependencies": [],
+    "scripts": {}
+  },
+  "_publishr": [
+    {
+      "created": true,
+      "path": ".env"
+    },
+    {
+      "created": false,
+      "path": "package.json"
     }
-  }
+  ]
 }
