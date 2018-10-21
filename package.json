@@ -1,6 +1,6 @@
 {
   "name": "supermodel-cli",
-  "version": "6.6.6",
+  "version": "6.6.7",
   "description": "DEPRECATED moved to @supermodel/cli",
   "main": "index.js",
   "scripts": {
