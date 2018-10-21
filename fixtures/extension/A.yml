@@ -1,6 +1,0 @@
-$id: http://supermodel.io/extension/A
-type: object
-
-properties:
-  b:
-    $ref: BC

@@ -1,12 +1,11 @@
 {
   "name": "supermodel-cli",
   "version": "6.6.6",
-  "description": "Supermodel command tool",
+  "description": "DEPRECATED moved to @supermodel/cli",
   "main": "index.js",
   "scripts": {
-    "jest": "jest",
-    "test": "npm run jest",
-    "test:watch": "npm run jest -- --watch"
+    "test": "echo 0",
+    "preinstall": "node ./deprecated.js"
   },
   "repository": {
     "type": "git",
@@ -21,26 +20,7 @@
   "bugs": {
     "url": "https://github.com/supermodel/supermodel-cli/issues"
   },
-  "bin": {
-    "supermodel": "./bin/supermodel"
-  },
   "homepage": "https://github.com/supermodel/supermodel-cli#readme",
-  "dependencies": {
-    "@supermodel/lib": "0.3.4",
-    "ajv": "^6.1.1",
-    "auth0-js": "9.4.2",
-    "casex": "0.0.5",
-    "commander": "^2.14.1",
-    "dotenv": "5.0.1",
-    "graphql": "0.13.2",
-    "inquirer": "5.2.0",
-    "isomorphic-fetch": "2.2.1",
-    "js-yaml": "^3.10.0",
-    "node-fetch": "2.1.2",
-    "rimraf": "2.6.2",
-    "superfile": "github:supermodel/superfile"
-  },
-  "devDependencies": {
-    "jest": "23.4.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
